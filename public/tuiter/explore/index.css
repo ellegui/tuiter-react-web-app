@@ -1,0 +1,201 @@
+* {
+background-color: black;
+/*color: white;*/
+}
+
+.wd-color-white {
+    color: white;
+}
+
+input::placeholder {
+    color: lightgrey;
+}
+
+#input-text {
+    position: absolute;
+    padding-left: 60px;
+}
+
+.wd-search-field {
+    background-color: darkgray;
+    position: absolute;
+    padding-left: 30px;
+    height: 20px;
+    top: 10px;
+}
+
+.wd-round-corner {
+    border-radius: 40px;
+    border-color: rgb(47, 51, 54);
+    width: 70%;
+    border: none;
+}
+
+.wd-offset-16{
+    padding-left: 16px;
+}
+
+.wd-icon-search {
+    position: absolute;
+    height: 15px;
+    left: 30px;
+    top: 13px;
+    background-color: transparent;
+}
+
+.wd-icon-gear {
+    position: absolute;
+    height: 20px;
+    right: 15px;
+    top: 15px;
+    background-color: transparent;
+}
+
+.wd-icon-dots {
+    height: 15px;
+    right: 15px;
+    background-color: transparent;
+    position: absolute;
+}
+
+.wd-icon-dots-2 {
+    height: 15px;
+    right: 15px;
+    color: darkgray;
+    background-color: transparent;
+    position: absolute;
+}
+
+.wd-icon-nyt {
+    height: 15px;
+    background-color: white;
+}
+
+.wd-icon-bbg {
+    height: 15px;
+    background-color: black;
+}
+
+.wd-icon-verify {
+    position: absolute;
+    height: 15px;
+    background-color: white;
+}
+
+.wd-b {
+    padding-top: 40px;
+    font-size: 15px;
+    color: darkgray;
+}
+
+.wd-c-small {
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-c-small-3 {
+    padding-top: 30px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-e-small {
+    font-size: 13px;
+    color: lightgray;
+}
+
+.wd-c-large {
+    padding-top: 5px;
+}
+
+.wd-content{
+    padding-top: 5px;
+}
+
+.wd-c-small-2 {
+    padding-top: 5px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-pos-fixed {
+    position: fixed;
+    float: left;
+    color: rgb(110, 118, 125);
+}
+
+.wd-pos-absolute-1 {
+    color: rgb(29,161,242);
+    padding-left: 10px;
+}
+
+.wd-b-line {
+    color: rgb(29, 161, 242);
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+}
+
+.wd-pos-absolute-2 {
+    left: 132px;
+}
+
+.wd-pos-absolute-3 {
+    left: 240px;
+}
+
+.wd-pos-absolute-4 {
+    left: 340px;
+}
+
+.wd-pos-absolute-5 {
+    left: 440px;
+}
+
+.wd-pos-absolute-6 {
+    left: 540px;
+}
+
+.wd-bottom-line {
+    height: 16px;
+    border-top: 1px solid rgb(197, 197, 197);
+    background-color: grey;
+}
+
+.wd-padding-5{
+    padding: 5px;
+}
+
+.wd-section-line {
+    border-top: 1px solid darkgray;
+}
+
+.wd-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border-right: 16px;
+    float: right;
+}
+
+.wd-padding-15 {
+    padding: 15px;
+}
+
+.wd-row {
+    clear:both;
+}
+
+.wd-d-small {
+    padding-left: 1px;
+}
+
+.wd-icon-dots-1 {
+    float: right;
+    height: 15px;
+    padding-right: 6px;
+}
+
+.wd-b-for {
+    color: rgb(110, 118, 125);
+}
