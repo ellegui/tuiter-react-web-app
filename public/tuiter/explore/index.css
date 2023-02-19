@@ -1,6 +1,6 @@
-* {
-background-color: white;
-}
+/** {*/
+/*background-color: white;*/
+/*}*/
 
 .wd-color-white {
     color: white;
@@ -17,7 +17,8 @@ background-color: white;
 .wd-icon-gear {
     height: 25px;
     top: 20px;
-    background-color: transparent;
+    background-color: white;
+    color: #2a9fd6;
 }
 
 .wd-padding-5{
@@ -44,6 +45,8 @@ background-color: white;
     width: 65px;
     height: 65px;
     border-radius: 8px;
+    float: right;
+
 }
 
 .wd-pic-right {
@@ -62,7 +65,7 @@ background-color: white;
 }
 
 .wd-title {
-    color: black;
+    color: white;
     font-size: 14px;
     font-weight: bold;
 }
@@ -98,15 +101,17 @@ background-color: white;
 
 .wd-search {
     background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 .wd-account {
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .wd-class{
-    color: gray;
+    color: lightgrey;
+    font-size: 14px;
 }
 
 .wd-space {
@@ -159,4 +164,44 @@ background-color: white;
 
 .wd-left-text {
     padding-left: 10px;
+}
+
+.wd-right {
+    float: right;
+}
+
+.wd-font {
+    font-weight: normal;
+
+}
+
+.wd-home-mid-pic {
+    height: auto;
+    width: 98%;
+    border-radius: 10px;
+    alignment: center;
+}
+
+.wd-home-icon {
+    height: 20px;
+    background-color: transparent;
+}
+
+
+.wd-lightgray {
+    color: darkgray;
+}
+
+.wd-home-title {
+    font-size: 18px;
+}
+
+.wd-home-content {
+    color: darkgray;
+    font-size: 16px;
+}
+
+.wd-home-link {
+    color: darkgray;
+    font-size: 15px;
 }
