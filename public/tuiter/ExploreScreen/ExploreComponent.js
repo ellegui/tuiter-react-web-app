@@ -17,7 +17,7 @@ const ExploreComponent = () => {
            <ul class="nav mb-2 nav-tabs">
                       <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#For you"> <span class="wd-underline">For you</span> </a>
+                        <a class="nav-link active" href="#For you"> For you </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Trending">Trending</a>

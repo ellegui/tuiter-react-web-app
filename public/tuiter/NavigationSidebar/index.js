@@ -1,15 +1,15 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (activebar) => {
     return(`
    <div class="list-group wd-align">
                     <a href="" class="list-group-item list-group-item-action border-0">
                         <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-twitter-old-logo-a-micro-blogging-web-portal-logo-color-tal-revivo.png" class="wd-icon-t">
                         </br>
                     </a>
-                    <a href="../HomeScreen/index.html " class="list-group-item list-group-item-action border-0">
+                    <a href="../HomeScreen/index.html " class="list-group-item list-group-item-action border-0 ${activebar.home?"active" : " "}">
                         <i class="fas fa-home fa-hashtag wd-bg-trans"></i>
                         <span class="d-xl-inline-block d-block d-none d-lg-none wd-left-text">Home</span>
                     </a>
-                    <a href="../explore/index.html" class="list-group-item list-group-item-action active border-0" style="background-color: dodgerblue">
+                    <a href="../explore/index.html" class="list-group-item list-group-item-action border-0 ${activebar.explore?"active" : " "}">
                         <i class="fas fa-fw fa-hashtag wd-bg-trans"></i>
                         <span class="d-xl-inline-block d-block d-none d-lg-none wd-bg-trans wd-left-text">Explore</span>
                     </a>
