@@ -1,0 +1,247 @@
+.wd-color-white {
+    color: white;
+}
+
+.wd-trans {
+    color: transparent;
+}
+
+.wd-bg-trans {
+    background-color: transparent;
+}
+
+.wd-icon-gear {
+    height: 25px;
+    top: 20px;
+    background-color: white;
+    color: #2a9fd6;
+}
+
+.wd-padding-5{
+    padding: 5px;
+}
+
+.wd-section-line {
+    border-top: 1px solid lightgray;
+}
+
+.wd-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border-right: 16px;
+    float: right;
+}
+
+.wd-row {
+    clear:both;
+}
+
+.wd-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 8px;
+    float: right;
+
+}
+
+.wd-pic-right {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.wd-pic-small {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.bottom-left {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 23px;
+}
+
+.wd-title {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.wd-icon-verify {
+    height: 19px;
+    fill: dodgerblue;
+    background-color: transparent;
+}
+
+.wd-icon-left {
+    height: 20px;
+    background-color: transparent;
+    vertical-align: central;
+}
+
+.wd-icon-t {
+    height: 22px;
+    background-color: transparent;
+    vertical-align: central;
+}
+
+.wd-align {
+    vertical-align: central;
+    horiz-align: left;
+}
+
+.btn-primary.override-bs {
+    border-radius: 20px;
+    vertical-align: central;
+    background-color: black;
+}
+
+.wd-search {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.wd-account {
+    font-weight: bold;
+    color: white;
+}
+
+.wd-class{
+    color: lightgrey;
+    font-size: 14px;
+}
+
+.wd-space {
+    padding-left: 5px;
+    color: white;
+    background-color: transparent;
+}
+
+.wd-twitter {
+    color: dodgerblue;
+}
+
+.wd-bg-lightgray {
+    background-color: lightgray;
+}
+
+.wd-underline {
+    border-bottom: 3px solid dodgerblue;
+    padding-bottom: 5px;
+}
+
+.wd-border {
+    position: relative;
+    display: block;
+    padding: 0px 0px;
+    margin-bottom: 1px;
+    border: 1px whitesmoke;
+    line-height: 1em
+}
+
+.wd-border-2 {
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+
+.wd-blue {
+    color: dodgerblue;
+}
+
+.wd-black {
+    color: black;
+}
+
+.wd-who {
+    vertical-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: Helvetica;
+}
+
+.wd-left-text {
+    padding-left: 10px;
+}
+
+.wd-left-text-2{
+    padding-left: 1px;
+    /*color: dimgrey;*/
+}
+
+.wd-right {
+    float: right;
+}
+
+.wd-font {
+    font-weight: normal;
+
+}
+
+.wd-home-mid-pic {
+    height: auto;
+    width: 98%;
+    border-radius: 10px;
+    alignment: center;
+}
+
+.wd-home-icon {
+    height: 20px;
+    background-color: transparent;
+}
+
+
+.wd-lightgray {
+    color: grey;
+}
+
+.wd-home-title {
+    font-size: 18px;
+}
+
+.wd-home-content {
+    color: darkgray;
+    font-size: 16px;
+}
+
+.wd-home-link {
+    color: darkgray;
+    font-size: 15px;
+}
+
+.wd-align-left {
+    text-align: left;
+}
+
+.wd-padding-left {
+    padding-left: 70px;
+}
+
+.wd-padding-left-50 {
+    padding-left: 48px;
+}
+
+.wd-padding-left-3 {
+    padding-left: 4px;
+}
+
+.wd-padding-10{
+    padding: 15px;
+}
+
+.wd-text-bold{
+    font-weight: bold;
+    color:grey;
+    font-size: 13px;
+}
+
+.wd-text-show {
+    color: dodgerblue;
+    text-decoration: none;
+}
