@@ -8,20 +8,20 @@ const HomeComponent = () => {
             <ul className="list-group wd-align-left">
                 <li className="list-group-item">
                     <div className="wd-padding-left-50">
-                        <img src="/images/retw.png" className="wd-icon-verify"/>
+                        <img src="/images/retw.png" alt="" className="wd-icon-verify"/>
                         <span className="wd-text-bold"> Elon Musk Retweeted</span>
                     </div>
 
                     <img className="wd-pic-right" src="/images/spacex.jpeg" alt="Avatar"/> SpaceX
-                    <img src="/images/verify.png" className="wd-icon-verify"/>
+                    <img src="/images/verify.png" alt="" className="wd-icon-verify"/>
                     <span className="wd-lightgray wd-padding-left-3">@SpaceX</span>
                     <span className="wd-lightgray"> • 23h</span>
-                    <img src="/images/dots.png" className="wd-icon-verify wd-right"/>
+                    <img src="/images/dots.png" alt="" className="wd-icon-verify wd-right"/>
                     <div className="wd-left-text wd-padding-left"> Dennis and Akiko Tito are the first two crewmembers on Starship's second commercial spaceflight around the Moon →
                         <a href="http://spacex.com/updates" className="wd-text-show"> http://spacex.com/updates</a>
                         <div>
                             <div className="wd-padding-5"></div>
-                            <img className="wd-home-mid-pic" src="/images/da.jpeg"/>
+                            <img className="wd-home-mid-pic" alt="" src="/images/da.jpeg"/>
                         </div>
 
                         <div className="wd-padding-5"></div>
@@ -56,10 +56,10 @@ const HomeComponent = () => {
                 <li className="list-group-item">
 
                     <img className="wd-pic-right" src="/images/elon.jpeg" alt="Avatar"/> Elon Musk
-                    <img src="/images/verify.png" className="wd-icon-verify"/>
+                    <img src="/images/verify.png" alt="" className="wd-icon-verify"/>
                     <span className="wd-lightgray wd-padding-left-3">@elonmusk</span>
                     <span className="wd-lightgray"> • 15h</span>
-                    <img src="/images/dots.png" className="wd-icon-verify wd-right"/>
+                    <img src="/images/dots.png" alt="" className="wd-icon-verify wd-right"/>
                     <div className="wd-left-text wd-padding-left"> We might need a different name, as this is basically just starlink with roaming capability, so you can take your terminal anywhere.
 
                         <div>
@@ -69,7 +69,7 @@ const HomeComponent = () => {
                                 <div className="wd-padding-10">
 
                                     <img className="wd-pic-small" src="/images/spacex.jpeg" alt="Avatar"/> SpaceX
-                                    <img src="/images/verify.png" className="wd-icon-verify"/>
+                                    <img src="/images/verify.png" alt="" className="wd-icon-verify"/>
                                     <span className="wd-lightgray wd-padding-left-3">@SpaceX</span>
                                     <span className="wd-lightgray"> • 16h</span>
 
