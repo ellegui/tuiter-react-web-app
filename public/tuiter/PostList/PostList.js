@@ -41,7 +41,6 @@ const Post = () => {
       
       <div class="wd-section-line"></div>
       
-<!--      NY POST-->
       <div>
         <ul class="list-group" style = "text-align: left">
             <li class="list-group-item">
