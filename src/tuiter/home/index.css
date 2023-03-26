@@ -50,6 +50,11 @@
     height: 55px;
     border-radius: 50px;
     margin-right: 10px;
+    float: left;
+}
+
+.wd-text{
+    font-size: 14px;
 }
 
 .wd-pic-small {
@@ -235,13 +240,96 @@
     padding: 15px;
 }
 
+.wd-padding-1 {
+    padding: 1.5px;
+}
+
 .wd-text-bold{
     font-weight: bold;
-    color:grey;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .wd-text-show {
     color: dodgerblue;
     text-decoration: none;
 }
+
+.wd-text{
+    color: dimgrey;
+    font-size: 14px;
+
+}
+
+.wd-icon {
+    width: 18px;
+    height: 18px;
+    color: darkgrey;
+    background-color: transparent;
+}
+
+.wd-red{
+    fill: red;
+    color: red;
+    /*background-color: red;*/
+}
+
+.wd-text-1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wd-text-2{
+    font-size: 15px;
+    color: gray;
+}
+
+.wd-text-3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.wd-pic-1{
+    position: absolute;
+    top: 70px;
+    z-index: -1;
+    padding-right: 20px;
+    height: 35%;
+    width: 100%;
+}
+
+.wd-pic-3 {
+    position: absolute;
+    top: 68px;
+    z-index: -1;
+    padding-right: 20px;
+    height: 21%;
+    width: 100%;
+}
+
+.wd-pic-2 {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 170px;
+    z-index: -1;
+}
+
+.wd-padding-50 {
+    padding: 119px;
+}
+
+.wd-padding-left-5{
+    padding-left: 7px;
+}
+
+.wd-padding-left-10{
+    padding-left: 25px;
+}
+
+.wd-bg-black {
+    background-color: black;
+    color: black;
+}
+
