@@ -59,14 +59,14 @@ const EditProfile = () => {
             <button className="-align-center me-2 wd-bg-trans border-0"><i className="bi bi-x-circle"></i></button>
 
             <div>
-                <img className="wd-pic-3" src={profile.bannerPicture}/>
+                <img className="wd-pic-3" alt="" src={profile.bannerPicture}/>
                 <button value={profilePicture}
                         onChange={e => setProfile(e.target.profile)}
                         className="-align-center me-2 wd-bg-trans border-0">
                     <i className="bi bi-camera"></i>
                 </button>
 
-                <img className="wd-pic-2" src={profile.profilePicture}/>
+                <img className="wd-pic-2" alt="" src={profile.profilePicture}/>
             </div>
 
             <div className="wd-padding-10"></div>

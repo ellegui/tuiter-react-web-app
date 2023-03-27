@@ -32,8 +32,8 @@ const ProfileComponent = () => {
 
             <div className="wd-padding-50"></div>
 
-            <img className="wd-pic-1" src={profile.bannerPicture}/>
-            <img className="wd-pic-2" src={profile.profilePicture}/>
+            <img className="wd-pic-1" alt="" src={profile.bannerPicture}/>
+            <img className="wd-pic-2" alt="" src={profile.profilePicture}/>
 
             <button className="float-end rounded-pill border wd-text-1 wd-padding-5 wd-bg-trans" onClick={editProfileLink}>
                 Edit Profile </button>
@@ -51,7 +51,8 @@ const ProfileComponent = () => {
                     <li className="list-group-item ms-3 border-0">
                         <i className="bi bi-balloon"></i>
                         <span className="wd-text-2"> Born </span>
-                        <span className="bg-black">{profile.dateOfBirth}</span>
+                        <span className="bg-black">{months[birth_month - 1]} {birth_date} </span>
+                        <span>{birth_year}</span>
                     </li>
                     <li className="list-group-item ms-3 border-0">
                         <i className="bi bi-calendar3 wd-text-2"></i> <span className="wd-text-2"> Joined {months[joind_month - 1]} {joind_year}</span>

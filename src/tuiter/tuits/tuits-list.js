@@ -19,7 +19,7 @@ const TuitList = () => {
             {
                 tuitsArray.map(tuitItem =>
                     <li className="list-group-item wd-align-left">
-                        <img className="mt-1 wd-pic-right d-flex " src={`/images/${tuitItem.image}`}/>
+                        <img className="mt-1 wd-pic-right d-flex " alt="" src={`/images/${tuitItem.image}`}/>
                         <div>
                             <i className="bi bi-x-lg float-end wd-icon"
                                onClick={() => deleteTuitHandler(tuitItem._id)}/>
@@ -35,13 +35,13 @@ const TuitList = () => {
                             <p className="wd-lightgray wd-padding-left wd-text">
 
                                 <span className="">
-                                  <img className="wd-icon" src="https://img.icons8.com/ios/256/speech-bubble--v1.png"/>
+                                  <img className="wd-icon" alt="" src="https://img.icons8.com/ios/256/speech-bubble--v1.png"/>
                                   <span className="ps-1">{tuitItem.replies}</span>
                                 </span>
 
 
                                 <span className="wd-padding-left">
-                                  <img className="wd-icon" src="https://img.icons8.com/ios/256/repeat.png"/>
+                                  <img className="wd-icon" alt="" src="https://img.icons8.com/ios/256/repeat.png"/>
                                   <span className="ps-1">{tuitItem.retuits}</span>
                                 </span>
 
@@ -56,7 +56,7 @@ const TuitList = () => {
                                 </button>
 
                                 <span className="wd-padding-left">
-                                  <img className="wd-icon" src="https://img.icons8.com/ios/256/share-2.png"/>
+                                  <img className="wd-icon" alt="" src="https://img.icons8.com/ios/256/share-2.png"/>
                                 </span>
                             </p>
 

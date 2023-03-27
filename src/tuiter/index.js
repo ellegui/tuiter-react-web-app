@@ -10,7 +10,6 @@ import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import ProfileComponent from './profile'
 import profileReducer from "./profile/profile-reducer"
-import editProfile from "./profile/edit-profile";
 import EditProfile from "./profile/edit-profile";
 
 
