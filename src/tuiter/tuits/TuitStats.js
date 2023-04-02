@@ -20,26 +20,30 @@ const TuitStats = (
             "like":"11",
             "liked": true
         }
-
     }
 ) =>{
     const dispatch = useDispatch();
     const toggleTuitLike = (tuit) => dispatch(likedToggle(tuit))
     return (
         <div className="d-flex m-2 ms-5" style={{color: "grey"}}>
-            <div className="w-25">
+            <div className="">
                 <i className="fa fa-comment"></i>
                 <span> {post.comment}</span>
             </div>
-            <div className="w-25">
+            <div className="">
                 <i className="fa-solid fa-retweet"></i>
                 <span> {post.retweet}</span>
             </div>
-            <div className="w-25">
-                <i className= "fa-solid fa-heart" style={{ color: post.liked ? '#b30026' : 'grey' }} onClick={()=>toggleTuitLike(post)}></i>
+            <div className="">
+                Likes: {tuit.likes}
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                    likes: tuit.likes + 1
+                }))} className="bi bi-heart-fill me-2 text-danger"></i>
                 <span> {post.like}</span>
             </div>
-            <div className="w-25">
+
+            <div className="">
                 <i className="fa-solid fa-share"></i>
             </div>
         </div>

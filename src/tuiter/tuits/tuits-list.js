@@ -1,21 +1,37 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import '../home/index.css';
 import '../../vendors/fontawesome/css/all.css';
 import {deleteTuit, likedToggle} from "./tuits-reducer";
 import '@fortawesome/fontawesome-free/css/all.css';
+import {findTuitsThunk}
+    from "../../services/tuits-thunks";
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitList = () => {
-    const tuitsArray = useSelector(state => state.tuits)
+    const initialState = useSelector(state => state.tuitsData)
     const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(findTuitsThunk())
+    }, [])
+
+    const tuitsArray = initialState.tuits;
+    const loading = initialState.loading;
     const likedToggleHandler = (liked) => {
         dispatch(likedToggle(liked))
     }
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return(
         <ul className="list-group">
+            {
+                loading &&
+                <li className="list-group-item">
+                    Loading...
+                </li>
+            }
+
             {
                 tuitsArray.map(tuitItem =>
                     <li className="list-group-item wd-align-left">
@@ -46,14 +62,18 @@ const TuitList = () => {
                                 </span>
 
 
-                                <button onClick={() => likedToggleHandler(tuitItem)} className="flex-fill wd-bg-trans border-0 p-0">
+                                <button onClick={() => dispatch(updateTuitThunk({
+                                    ...tuitItem,
+                                    likes: tuitItem.liked?tuitItem.likes - 1:tuitItem.likes + 1,
+                                    liked: !tuitItem.liked
+                                }))} className="flex-fill wd-bg-trans border-0 p-0">
                                 <span className="wd-padding-left">
-                                    <span className={tuitItem.liked ? "wd-red" : ""}>
-                                        <i className="fa-regular fa-heart"/>
+                                    <span className={tuitItem.liked ? "wd-red bi bi-heart-fill" : "bi bi-heart"}>
                                     </span>
                                   <span className="ps-1 wd-icon">{tuitItem.likes}</span>
                                 </span>
                                 </button>
+
 
                                 <span className="wd-padding-left">
                                   <img className="wd-icon" alt="" src="https://img.icons8.com/ios/256/share-2.png"/>
