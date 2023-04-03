@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import '../home/index.css';
 import '../../vendors/fontawesome/css/all.css';
-import {deleteTuit, likedToggle} from "./tuits-reducer";
+// import {deleteTuit, likedToggle} from "./tuits-reducer";
 import '@fortawesome/fontawesome-free/css/all.css';
 import {findTuitsThunk}
     from "../../services/tuits-thunks";
@@ -13,13 +13,14 @@ const TuitList = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(findTuitsThunk())
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const tuitsArray = initialState.tuits;
     const loading = initialState.loading;
-    const likedToggleHandler = (liked) => {
-        dispatch(likedToggle(liked))
-    }
+    // const likedToggleHandler = (liked) => {
+    //     dispatch(likedToggle(liked))
+    // }
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
     }
